@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# GEARZ Bug Chain Forge 🔗🤠
 
-## Getting Started
+**GEARZ Bug Chain Forge** is a Wild West-themed AI-powered vulnerability chaining simulator for bug bounty hunters.
 
-First, run the development server:
+Give it any low-severity finding, and it forges a smart, multi-step exploit chain — helping beginners and pros think like elite red teamers.
 
+## 🔥 Features
+- AI-generated multi-stage exploit chains
+- LLM-powered logic with Ollama or OpenAI backend
+- Wild West + Mass Effect-style animated background
+- Fully styled Tailwind + Next.js frontend
+- Beginner + advanced payload logic (coming soon)
+
+## 🚀 Getting Started
 ```bash
+git clone https://github.com/YOUR_USERNAME/gearz-bug-chain-forge.git
+cd gearz-bug-chain-forge
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+###💡 This app requires a running LLM (Ollama or OpenAI) to generate chains — make sure your AI assistant is active in the backend before launching.
